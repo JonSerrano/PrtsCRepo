@@ -13,5 +13,6 @@ ActiveAdmin.register UserOrder do
 #   permitted
 # end
 
+permit_params :is_paid, :user_id, :product_id
 
 end

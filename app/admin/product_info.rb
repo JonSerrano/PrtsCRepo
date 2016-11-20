@@ -13,5 +13,6 @@ ActiveAdmin.register ProductInfo do
 #   permitted
 # end
 
+permit_params :product_id
 
 end
