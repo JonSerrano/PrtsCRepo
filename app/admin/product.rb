@@ -13,5 +13,6 @@ ActiveAdmin.register Product do
 #   permitted
 # end
 
+permit_params :product_price, :user_id, :category_id
 
 end

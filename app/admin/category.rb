@@ -13,5 +13,6 @@ ActiveAdmin.register Category do
 #   permitted
 # end
 
+permit_params :category_name
 
 end
