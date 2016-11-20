@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date_bought: 2016-11-20 12:29:11
+  is_paid: false
+  user: one
+  product: one
+
+two:
+  date_bought: 2016-11-20 12:29:11
+  is_paid: false
+  user: two
+  product: two
