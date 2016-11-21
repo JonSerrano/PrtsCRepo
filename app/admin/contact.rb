@@ -13,5 +13,6 @@ ActiveAdmin.register Contact do
 #   permitted
 # end
 
+permit_params :content, :email, :telephone, :address
 
 end

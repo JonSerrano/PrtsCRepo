@@ -13,5 +13,6 @@ ActiveAdmin.register About do
 #   permitted
 # end
 
+permit_params :content
 
 end
