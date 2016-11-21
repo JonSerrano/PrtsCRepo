@@ -1,0 +1,14 @@
+<p>Modify this file to change how the products are displayed. this will repeat depending on how many your products are.</p>
+
+<% prod_id = product.id 
+   file_name = @images.find_by(product_id: prod_id).filename
+   prod_price = product.product_price
+   prod_owner = @users.find_by(id: product.user_id).user_name
+   category = @categories.find_by(id: product.category_id).category_name
+%>
+
+<td><%= file_name %></td>
+<td><%= prod_price %></td>
+<td><%= prod_owner %></td>
+<td><%= category %></td>
+
