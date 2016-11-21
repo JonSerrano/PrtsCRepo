@@ -1,5 +1,3 @@
-<p>Modify this file to change how the products are displayed. this will repeat depending on how many your products are.</p>
-
 <% prod_id = product.id 
    file_name = @images.find_by(product_id: prod_id).filename
    prod_price = product.product_price
@@ -11,4 +9,5 @@
 <td><%= prod_price %></td>
 <td><%= prod_owner %></td>
 <td><%= category %></td>
-
+<td><%= image_tag(file_name, size: "100", alt: file_name) %></td>
+	

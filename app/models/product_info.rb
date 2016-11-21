@@ -1,3 +1,3 @@
 class ProductInfo < ApplicationRecord
-  belongs_to :product
+  belongs_to :product, :dependent => :destroy
 end
